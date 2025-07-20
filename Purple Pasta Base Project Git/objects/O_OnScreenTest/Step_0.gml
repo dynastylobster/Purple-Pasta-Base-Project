@@ -11,12 +11,13 @@ if InputCheck(INPUT_VERB.RIGHT) {
 if InputCheck(INPUT_VERB.DOWN) {
 	y+= 2 * DT	
 	}
-if InputCheck(INPUT_VERB.RIGHT) {
-		x+= 2 * DT
+if InputCheck(INPUT_VERB.LEFT) {
+		x-= 2 * DT
 	}
-if InputCheck(INPUT_VERB.DOWN) {
-	y+= 2 * DT	
+if InputCheck(INPUT_VERB.UP) {
+	y-= 2 * DT	
 	}
+
 
 if onscreen = false {
 	y = starty
