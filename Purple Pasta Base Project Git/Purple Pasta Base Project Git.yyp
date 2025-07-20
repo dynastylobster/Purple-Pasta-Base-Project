@@ -34,9 +34,13 @@
   },
   "name":"Purple Pasta Base Project Git",
   "resources":[
+    {"id":{"name":"O_All","path":"objects/O_All/O_All.yy",},},
     {"id":{"name":"O_GameObject","path":"objects/O_GameObject/O_GameObject.yy",},},
+    {"id":{"name":"O_OnScreenTest","path":"objects/O_OnScreenTest/O_OnScreenTest.yy",},},
     {"id":{"name":"R_Boot","path":"rooms/R_Boot/R_Boot.yy",},},
+    {"id":{"name":"CheckOnscreen","path":"scripts/CheckOnscreen/CheckOnscreen.yy",},},
     {"id":{"name":"SwitchRatio","path":"scripts/SwitchRatio/SwitchRatio.yy",},},
+    {"id":{"name":"SwitchScale","path":"scripts/SwitchScale/SwitchScale.yy",},},
     {"id":{"name":"WindowSizeCall","path":"scripts/WindowSizeCall/WindowSizeCall.yy",},},
     {"id":{"name":"S_GameSprite","path":"sprites/S_GameSprite/S_GameSprite.yy",},},
   ],

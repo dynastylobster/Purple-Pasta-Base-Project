@@ -17,6 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"O_All","order":1,"path":"objects/O_All/O_All.yy",},
+    {"name":"O_OnScreenTest","order":2,"path":"objects/O_OnScreenTest/O_OnScreenTest.yy",},
+    {"name":"CheckOnscreen","order":2,"path":"scripts/CheckOnscreen/CheckOnscreen.yy",},
     {"name":"SwitchRatio","order":1,"path":"scripts/SwitchRatio/SwitchRatio.yy",},
+    {"name":"SwitchScale","order":3,"path":"scripts/SwitchScale/SwitchScale.yy",},
   ],
 }

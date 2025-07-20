@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+game_set_speed(TargFPS/4,gamespeed_fps)
+#macro DT ((delta_time / 1000000) * O_GameObject.TargFPS)
 image_alpha = 0;
 //Check monitor's resolution and set max values accordingly
 CurrentWindowWidth = ViewWidth*WindowScale
@@ -9,7 +11,6 @@ fullscreen = false;
 monitorwidth = display_get_width()
 monitorheight = display_get_height()
 MaxWindowScale = ceil(MonitorResolution/ViewHeight);
-
 
 _truewidth = ViewWidth
 _trueheight = ViewHeight
