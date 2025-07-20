@@ -9,6 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":72,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":77,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_GameObject",
@@ -35,7 +36,7 @@
     {"$GMObjectProperty":"v1","%Name":"AspectRatioMode","filters":[],"listItems":[
         "\"Fixed\"",
         "\"Dynamic\"",
-      ],"multiselect":false,"name":"AspectRatioMode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Fixed\"","varType":6,},
+      ],"multiselect":false,"name":"AspectRatioMode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Dynamic\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"DefaultViewWidth","filters":[],"listItems":[],"multiselect":false,"name":"DefaultViewWidth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"426","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"DefaultViewHeight","filters":[],"listItems":[],"multiselect":false,"name":"DefaultViewHeight","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"FilterMode","filters":[],"listItems":[

@@ -2,6 +2,8 @@
 // You can write your code in this editor
 image_alpha = 0;
 //Check monitor's resolution and set max values accordingly
+CurrentWindowWidth = ViewWidth*WindowScale
+CurrentWindowHeight = ViewWidth*WindowScale
 MonitorResolution = display_get_height();
 fullscreen = false;
 monitorwidth = display_get_width()

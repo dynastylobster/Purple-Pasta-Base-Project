@@ -17,7 +17,9 @@ window_set_size(ViewWidth*WindowScale,ViewHeight*WindowScale)
 		if FilterMode = "Nearest" {
 			application_surface_draw_enable(false);		
 		}
-	} else application_surface_draw_enable(true);
+	} else {
+		application_surface_draw_enable(true);
+	}
 
 surface_resize(application_surface,ViewWidth*WindowScale,ViewHeight*WindowScale);
 if FilterMode = "Nearest" surface_resize(application_surface,ViewWidth,ViewHeight)
@@ -30,7 +32,13 @@ if FilterMode = "Nearest" surface_resize(application_surface,ViewWidth,ViewHeigh
 
 
 if AspectRatioMode = "Dynamic" {
-		
+		ViewWidth = window_get_width()/WindowScale
+		ViewHeight = window_get_height()/WindowScale
+		camera_set_view_size(view_camera[0],ViewWidth,ViewHeight)
+		surface_resize(application_surface,window_get_width(),window_get_height())
+	CurrentWindowWidth = window_get_width()
+	CurrentWindowHeight = window_get_height()	
 	}
 		
+
 }
