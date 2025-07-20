@@ -2,11 +2,12 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SwitchScale(){
 if FilterMode = "Nearest" {
-	MaxWindowScale = floor(MonitorResolution/ViewHeight);	
+	MaxWindowScale = floor(MonitorResolution/DefaultViewHeight);	
 }
 
 if WindowScale < MaxWindowScale {
 		WindowScale++
 	} else WindowScale = 1;
+	
 WindowSizeCall();
 }
