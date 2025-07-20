@@ -5,9 +5,12 @@ CheckOnscreen(true,true);
 //x+= 2
 //y+= 2
 
-if keyboard_check(vk_right) {
+if InputCheck(INPUT_VERB.RIGHT) {
 		x+= 1 * DT
 	}
+if InputCheck(INPUT_VERB.TRIGR) {
+	y+= 2 * DT	
+}
 
 if onscreen = false {
 	y = starty
