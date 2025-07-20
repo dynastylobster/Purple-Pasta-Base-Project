@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-game_set_speed(TargFPS/4,gamespeed_fps)
-#macro DT ((delta_time / 1000000) * O_GameObject.TargFPS)
+game_set_speed(TargFPS,gamespeed_fps)
+#macro DT ((delta_time / 1000000) * (O_GameObject.TargFPS/4))
 image_alpha = 0;
 //Check monitor's resolution and set max values accordingly
 CurrentWindowWidth = ViewWidth*WindowScale
