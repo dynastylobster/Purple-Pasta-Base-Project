@@ -53,7 +53,7 @@
         "[16,9]",
         "[4,3]",
         "[16,10]",
-      ],"multiselect":false,"name":"FixedRatio","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[4,3]","varType":6,},
+      ],"multiselect":false,"name":"FixedRatio","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[16,9]","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"OutOfScreenBuffer","filters":[],"listItems":[],"multiselect":false,"name":"OutOfScreenBuffer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"16","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"TargFPS","filters":[],"listItems":[],"multiselect":false,"name":"TargFPS","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":0,},
   ],
