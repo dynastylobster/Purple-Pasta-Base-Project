@@ -6,11 +6,17 @@ CheckOnscreen(true,true);
 //y+= 2
 
 if InputCheck(INPUT_VERB.RIGHT) {
-		x+= 1 * DT
+		x+= 2 * DT
 	}
-if InputCheck(INPUT_VERB.TRIGR) {
+if InputCheck(INPUT_VERB.DOWN) {
 	y+= 2 * DT	
-}
+	}
+if InputCheck(INPUT_VERB.RIGHT) {
+		x+= 2 * DT
+	}
+if InputCheck(INPUT_VERB.DOWN) {
+	y+= 2 * DT	
+	}
 
 if onscreen = false {
 	y = starty
