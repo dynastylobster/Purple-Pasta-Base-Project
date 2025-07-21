@@ -8,8 +8,8 @@
   "name":"O_All",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Universal",
+    "path":"folders/Objects/Universal.yy",
   },
   "parentObjectId":null,
   "persistent":false,

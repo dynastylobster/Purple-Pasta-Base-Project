@@ -10,8 +10,8 @@
   "name":"O_OnScreenTest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Universal",
+    "path":"folders/Objects/Universal.yy",
   },
   "parentObjectId":{
     "name":"O_All",
