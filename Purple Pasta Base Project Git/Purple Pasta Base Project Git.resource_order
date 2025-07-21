@@ -55,8 +55,8 @@
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
-    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":18,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
@@ -330,5 +330,6 @@
     {"name":"InputY","order":3,"path":"scripts/InputY/InputY.yy",},
     {"name":"SwitchRatio","order":1,"path":"scripts/SwitchRatio/SwitchRatio.yy",},
     {"name":"SwitchScale","order":3,"path":"scripts/SwitchScale/SwitchScale.yy",},
+    {"name":"T_ColTiles","order":1,"path":"tilesets/T_ColTiles/T_ColTiles.yy",},
   ],
 }
