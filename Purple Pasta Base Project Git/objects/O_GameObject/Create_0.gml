@@ -19,13 +19,13 @@ current_fixed_ratio = 0;
 WindowSizeCall();
 
 //tile collision
-walltiles = layer_get_id("ColTileWall")
-slopetiles = layer_get_id("ColTileSlope")
-semisolidtiles = layer_get_id("ColTileSemi")
+global.walltiles = layer_get_id("ColTileWall")
+global.slopetiles = layer_get_id("ColTileSlope")
+global.semisolidtiles = layer_get_id("ColTileSemi")
 
-walltiledata = layer_tilemap_get_id(walltiles)
-slopetiledata = layer_tilemap_get_id(slopetiles)
-semisolidtiledata = layer_tilemap_get_id(semisolidtiles)
+walltiledata = layer_tilemap_get_id(global.walltiles)
+slopetiledata = layer_tilemap_get_id(global.slopetiles)
+semisolidtiledata = layer_tilemap_get_id(global.semisolidtiles)
 
 tiledyet = false;
 
@@ -62,6 +62,11 @@ tiledyet = true;
 	
 }
 
-layer_set_visible(walltiles,false);
-layer_set_visible(slopetiles,false);
-layer_set_visible(semisolidtiles,false);
+layer_set_visible(global.walltiles,false);
+layer_set_visible(global.slopetiles,false);
+layer_set_visible(global.semisolidtiles,false);
+
+#macro WALL [global.walltiles,O_Wall]
+#macro SLOPE [global.slopetiles,O_Slope]
+#macro SEMI [global.semisolidtiles,O_Semi]
+#macro ANYWALL [global.walltiles,global.slopetiles,global.semisolidtiles,O_Wall,O_Slope,O_Semi]

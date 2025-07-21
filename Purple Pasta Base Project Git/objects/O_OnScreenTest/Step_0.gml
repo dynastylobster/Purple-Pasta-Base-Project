@@ -6,19 +6,27 @@ CheckOnscreen(true,true);
 //y+= 2
 
 if InputCheck(INPUT_VERB.RIGHT) {
-		x+= 2 * DT
+		xspeed+= 0.125 * DT
 	}
 if InputCheck(INPUT_VERB.DOWN) {
-	y+= 2 * DT	
+	yspeed+= 0.125 * DT	
 	}
 if InputCheck(INPUT_VERB.LEFT) {
-		x-= 2 * DT
+		xspeed-= 0.125 * DT
 	}
 if InputCheck(INPUT_VERB.UP) {
-	y-= 2 * DT	
+	yspeed-= 0.125 * DT	
 	}
 
+xspeed *= 1 - (1/20) * DT
+yspeed *= 1 - (1/20) * DT
 
+
+x+= xspeed
+y+= yspeed
+
+xspeed = clamp(xspeed,-max_speed,max_speed)
+yspeed = clamp(yspeed,-max_speed,max_speed)
 if onscreen = false {
 	y = starty
 	x = startx
