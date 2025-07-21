@@ -3,7 +3,7 @@
 CheckOnscreen(true,true);
 
 if InputPressed(INPUT_VERB.ACCEPT) {
-currentpal ++
+currentpal += 1
 if currentpal > 2 then currentpal = 0
 }
 
