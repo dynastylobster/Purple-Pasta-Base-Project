@@ -61,3 +61,7 @@ x = 0; y = 0;
 tiledyet = true;
 	
 }
+
+layer_set_visible(walltiles,false);
+layer_set_visible(slopetiles,false);
+layer_set_visible(semisolidtiles,false);
