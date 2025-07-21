@@ -2,6 +2,11 @@
 // You can write your code in this editor
 CheckOnscreen(true,true);
 
+if InputPressed(INPUT_VERB.ACCEPT) {
+currentpal ++
+if currentpal > 2 then currentpal = 0
+}
+
 //x+= 2
 //y+= 2
 

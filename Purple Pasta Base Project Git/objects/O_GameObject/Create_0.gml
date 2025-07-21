@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//First Init the Palette Swap System, specify the name of the pal swap shader in case you've changed it for some reason.
+pal_swap_init_system(shd_pal_swapper,shd_pal_html_sprite,shd_pal_html_surface);
+//Delta time
 game_set_speed(TargFPS,gamespeed_fps)
 #macro DT ((delta_time / 1000000) * (O_GameObject.TargFPS/4))
 image_alpha = 0;
