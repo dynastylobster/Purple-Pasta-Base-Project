@@ -3,7 +3,6 @@
 x = owner.x + xoffset
 y = owner.y + yoffset
 
-	
 
 switch owner.object_index {
 	

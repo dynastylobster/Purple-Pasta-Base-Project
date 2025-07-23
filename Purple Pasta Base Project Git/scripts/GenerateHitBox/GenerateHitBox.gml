@@ -10,5 +10,4 @@ function GenerateHitBox(_x,_y,width,height,xoffset,yoffset,owner,hitboxnum) {
 			hitbox.hitboxnum = argument7
 			hitbox.image_xscale = argument2
 			hitbox.image_yscale = argument3
-
 }
