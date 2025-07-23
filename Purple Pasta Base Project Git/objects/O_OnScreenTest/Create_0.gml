@@ -8,3 +8,6 @@ currentpal = 0;
 max_speed = 1.5;
 image_speed = 1;
 
+
+touchingtiles = false;
+GenerateHitBox(x,y,32,32,0,0,O_OnScreenTest,0);

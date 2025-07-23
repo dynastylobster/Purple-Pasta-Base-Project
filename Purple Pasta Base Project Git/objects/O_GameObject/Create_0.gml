@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+global.debugmode = false;
 //First Init the Palette Swap System, specify the name of the pal swap shader in case you've changed it for some reason.
 pal_swap_init_system(shd_pal_swapper,shd_pal_html_sprite,shd_pal_html_surface);
 //Delta time
@@ -66,11 +66,16 @@ tiledyet = true;
 	
 }
 
-layer_set_visible(global.walltiles,false);
-layer_set_visible(global.slopetiles,false);
-layer_set_visible(global.semisolidtiles,false);
+//layer_set_visible(global.walltiles,false);
+//layer_set_visible(global.slopetiles,false);
+//layer_set_visible(global.semisolidtiles,false);
 
-#macro WALL [global.walltiles,O_Wall]
-#macro SLOPE [global.slopetiles,O_Slope]
-#macro SEMI [global.semisolidtiles,O_Semi]
+#macro WALL O_GameObject.walltiledata /*[global.walltiles,O_Wall] */
+#macro SLOPE O_GameObject.slopetiledata /*[global.slopetiles,O_Slope] */
+#macro SEMI O_GameObject.semisolidtiledata /*[global.semisolidtiles,O_Semi] */
 #macro ANYWALL [global.walltiles,global.slopetiles,global.semisolidtiles,O_Wall,O_Slope,O_Semi]
+#macro WALLTILE global.walltiles
+#macro SLOPETILE global.slopetiles
+#macro SEMITILE global.semisolidtiles
+
+instance_create_depth(x,y,depth,O_OnScreenTest)

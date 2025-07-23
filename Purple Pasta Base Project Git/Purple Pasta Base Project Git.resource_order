@@ -65,6 +65,7 @@
   "ResourceOrderSettings":[
     {"name":"__InputUpdateController","order":19,"path":"objects/__InputUpdateController/__InputUpdateController.yy",},
     {"name":"O_GameObject","order":1,"path":"objects/O_GameObject/O_GameObject.yy",},
+    {"name":"O_Hitbox","order":7,"path":"objects/O_Hitbox/O_Hitbox.yy",},
     {"name":"O_LevelObject","order":6,"path":"objects/O_LevelObject/O_LevelObject.yy",},
     {"name":"O_OnScreenTest","order":2,"path":"objects/O_OnScreenTest/O_OnScreenTest.yy",},
     {"name":"O_Semi","order":3,"path":"objects/O_Semi/O_Semi.yy",},
@@ -151,6 +152,7 @@
     {"name":"__InputVibrateConfig","order":2,"path":"scripts/__InputVibrateConfig/__InputVibrateConfig.yy",},
     {"name":"__InputVibrateSystem","order":6,"path":"scripts/__InputVibrateSystem/__InputVibrateSystem.yy",},
     {"name":"CheckOnscreen","order":2,"path":"scripts/CheckOnscreen/CheckOnscreen.yy",},
+    {"name":"GenerateHitBox","order":4,"path":"scripts/GenerateHitBox/GenerateHitBox.yy",},
     {"name":"InputBindingFindCollisions","order":1,"path":"scripts/InputBindingFindCollisions/InputBindingFindCollisions.yy",},
     {"name":"InputBindingGet","order":2,"path":"scripts/InputBindingGet/InputBindingGet.yy",},
     {"name":"InputBindingSet","order":3,"path":"scripts/InputBindingSet/InputBindingSet.yy",},
@@ -347,6 +349,7 @@
     {"name":"B_GameBG_4","order":10,"path":"sprites/B_GameBG_4/B_GameBG_4.yy",},
     {"name":"B_GameBG","order":6,"path":"sprites/B_GameBG/B_GameBG.yy",},
     {"name":"S_GameSpritePal","order":1,"path":"sprites/S_GameSpritePal/S_GameSpritePal.yy",},
+    {"name":"S_HitBox","order":11,"path":"sprites/S_HitBox/S_HitBox.yy",},
     {"name":"S_LevelObject","order":5,"path":"sprites/S_LevelObject/S_LevelObject.yy",},
     {"name":"S_Semi","order":2,"path":"sprites/S_Semi/S_Semi.yy",},
     {"name":"S_Slope","order":3,"path":"sprites/S_Slope/S_Slope.yy",},
