@@ -22,6 +22,7 @@ current_fixed_ratio = 0;
 //Set Window size depending on resolution and aspect ratio
 WindowSizeCall();
 
+
 //tile collision
 global.walltiles = layer_get_id("ColTileWall")
 global.slopetiles = layer_get_id("ColTileSlope")
