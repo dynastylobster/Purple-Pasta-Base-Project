@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+event_inherited();
 startx = 0
 starty = 0
 currentpal = 0;

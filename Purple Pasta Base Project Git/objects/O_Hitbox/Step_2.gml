@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 x = owner.x + xoffset
-y = owner.y + yoffset
+//y = owner.y + yoffset
 
 
 switch owner.object_index {
@@ -9,6 +9,7 @@ switch owner.object_index {
 		case  O_OnScreenTest : {
 			
 			if hitboxnum = 0 {
+				y = owner.y + yoffset
 				if place_meeting(x,y,WALL) {
 					owner.currentpal = 1
 					owner.touchingtiles = true;
