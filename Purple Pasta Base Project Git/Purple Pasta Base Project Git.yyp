@@ -88,6 +88,7 @@
     {"id":{"name":"O_All","path":"objects/O_All/O_All.yy",},},
     {"id":{"name":"O_GameObject","path":"objects/O_GameObject/O_GameObject.yy",},},
     {"id":{"name":"O_Hitbox","path":"objects/O_Hitbox/O_Hitbox.yy",},},
+    {"id":{"name":"O_HitBoxTest","path":"objects/O_HitBoxTest/O_HitBoxTest.yy",},},
     {"id":{"name":"O_LevelObject","path":"objects/O_LevelObject/O_LevelObject.yy",},},
     {"id":{"name":"O_OnScreenTest","path":"objects/O_OnScreenTest/O_OnScreenTest.yy",},},
     {"id":{"name":"O_Semi","path":"objects/O_Semi/O_Semi.yy",},},

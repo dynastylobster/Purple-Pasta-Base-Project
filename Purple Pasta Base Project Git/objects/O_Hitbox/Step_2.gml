@@ -18,6 +18,13 @@ switch owner.object_index {
 			break;
 		}
 		
-		
+		case O_HitBoxTest: {
+				if hitboxnum = 0 {
+				if place_meeting(x,y,O_OnScreenTest.hitbox[0]) {
+				owner.currentpal = 2
+				} else owner.currentpal = 0;
+			}
+		}
+		break;
 		
 	}
