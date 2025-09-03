@@ -2,6 +2,8 @@
 // You can write your code in this editor
 CheckOnscreen(true,true);
 
+if !STOP {
+
 if InputPressed(INPUT_VERB.ACCEPT) {
 currentpal += 1
 if currentpal > 2 then currentpal = 0
@@ -35,4 +37,6 @@ yspeed = clamp(yspeed,-max_speed,max_speed)
 if onscreen = false {
 	y = starty
 	x = startx
+}
+
 }
