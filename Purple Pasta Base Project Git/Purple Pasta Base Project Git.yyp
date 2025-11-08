@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Purple Pasta Base Project Git",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -73,6 +73,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"gamecontrollerdb.txt","CopyToMask":-1,"filePath":"datafiles","name":"gamecontrollerdb.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"input_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"input_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -80,7 +81,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Purple Pasta Base Project Git",
   "resources":[
@@ -95,6 +96,7 @@
     {"id":{"name":"O_Slope","path":"objects/O_Slope/O_Slope.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},
     {"id":{"name":"R_Boot","path":"rooms/R_Boot/R_Boot.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"__InputBindingIsThumbstick","path":"scripts/__InputBindingIsThumbstick/__InputBindingIsThumbstick.yy",},},
     {"id":{"name":"__InputBindingScan","path":"scripts/__InputBindingScan/__InputBindingScan.yy",},},
     {"id":{"name":"__InputClassCluster","path":"scripts/__InputClassCluster/__InputClassCluster.yy",},},
@@ -404,6 +406,11 @@
     {"id":{"name":"B_GameBG_3","path":"sprites/B_GameBG_3/B_GameBG_3.yy",},},
     {"id":{"name":"B_GameBG_4","path":"sprites/B_GameBG_4/B_GameBG_4.yy",},},
     {"id":{"name":"B_GameBG","path":"sprites/B_GameBG/B_GameBG.yy",},},
+    {"id":{"name":"S_BerObsticle","path":"sprites/S_BerObsticle/S_BerObsticle.yy",},},
+    {"id":{"name":"S_BerTileFall","path":"sprites/S_BerTileFall/S_BerTileFall.yy",},},
+    {"id":{"name":"S_BerTileSpring","path":"sprites/S_BerTileSpring/S_BerTileSpring.yy",},},
+    {"id":{"name":"S_BerTileSummer","path":"sprites/S_BerTileSummer/S_BerTileSummer.yy",},},
+    {"id":{"name":"S_BerTileWinter","path":"sprites/S_BerTileWinter/S_BerTileWinter.yy",},},
     {"id":{"name":"S_ColTiles","path":"sprites/S_ColTiles/S_ColTiles.yy",},},
     {"id":{"name":"S_GameSprite","path":"sprites/S_GameSprite/S_GameSprite.yy",},},
     {"id":{"name":"S_GameSpritePal","path":"sprites/S_GameSpritePal/S_GameSpritePal.yy",},},
@@ -412,12 +419,15 @@
     {"id":{"name":"S_Semi","path":"sprites/S_Semi/S_Semi.yy",},},
     {"id":{"name":"S_Slope","path":"sprites/S_Slope/S_Slope.yy",},},
     {"id":{"name":"S_Wall","path":"sprites/S_Wall/S_Wall.yy",},},
+    {"id":{"name":"T_BerTileSummer","path":"tilesets/T_BerTileSummer/T_BerTileSummer.yy",},},
     {"id":{"name":"T_ColTiles","path":"tilesets/T_ColTiles/T_ColTiles.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"R_Boot","path":"rooms/R_Boot/R_Boot.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

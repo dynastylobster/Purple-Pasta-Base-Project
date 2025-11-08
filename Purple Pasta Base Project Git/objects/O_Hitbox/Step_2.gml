@@ -3,7 +3,12 @@
 x = owner.x + xoffset
 //y = owner.y + yoffset
 
-
+if !instance_exists(owner) {
+		instance_destroy();
+		exit;
+	}
+if instance_exists(owner) {
+if !following {
 switch owner.object_index {
 	
 		case  O_OnScreenTest : {
@@ -28,3 +33,12 @@ switch owner.object_index {
 		break;
 		
 	}
+}
+	
+	if following {
+		x = owner.x + xoffset
+		y = owner.y + yoffset
+	}
+	
+	
+}
