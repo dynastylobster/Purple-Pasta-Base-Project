@@ -6,6 +6,7 @@ global.lang = "English"
 
 global.debugmode = false;
 global.stop = false;
+global.stoptimer = 0;
 global.paused = false;
 
 #macro STOP global.stop
